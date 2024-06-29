@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    object-fit: cover;
+}
+
+#wrapper {
+    background-color: whitesmoke;
+}
+#main-header {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 2%;
+    height: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#logo {
+    padding-top: 1%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    text-align: right;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#navigation a:hover {
+    color: rgb(18, 32, 223);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+#content {
+    width: 100%;
+    height: 105rem;
+}
+
+#sidebar {
+    margin-top: 2%;
+    width: 12%;
+    height: 98rem;
+    background-color: rgb(11, 24, 123);
+    float: left;
+    padding-left: 3%;
+}
+
+#sidebar-text a{
+    color: white;
+}
+
+#sidebar-text a:hover{
+    font-size: larger;
+    transition:  ease-in-out 0.2s;
+}
+
+#main-content {
+    width: 88%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+#headerpic {
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    background: url(laptoptable.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 2%;
+}
+
+#first-row {
+    display: flex;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#second-row {
+    display: flex;
+    width: 100%;
+}
+.image-box {
+    position: relative;
+    width: 30%;
+    height: 20rem;
+    text-align: center;
+    float: left;
+    padding-left: 3%;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.3s;
+}
+
+.image-box img:hover{
+    transform: scale(1.2);
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px 0;
+    padding-top: 1%;
+}
+
+#footer h3 {
+    color: darkblue;
+    text-align: center;
+    padding-left: 35%;  
+    padding-top: 2%;
+}
+#footer img {   
+    display: flex;
+    align-items: center;
+    float: left;
+}
